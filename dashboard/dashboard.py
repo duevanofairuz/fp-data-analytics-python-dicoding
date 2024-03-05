@@ -6,9 +6,9 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 #gather data
-temperature_df = pd.read_csv("temperature.csv")
-day_df = pd.read_csv("dayy.csv")
-grouped = pd.read_csv("grouped.csv")
+temperature_df = pd.read_csv("dashboard/temperature.csv")
+day_df = pd.read_csv("dashboard/dayy.csv")
+grouped = pd.read_csv("dashboard/grouped.csv")
 
 st.title('PROYEK ANALISIS DATA : BIKE SHARING')
 st.header('Course Dicoding: Belajar Analisis Data dengan Python')
